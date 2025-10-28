@@ -1,0 +1,19 @@
+{
+  "name": "SessionSampleApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx biome format --write .",
+    "check": "npx biome check --write .",
+    "frontend": "pnpm --filter frontend",
+    "backend": "pnpm --filter backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.19.0",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  }
+}

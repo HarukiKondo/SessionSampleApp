@@ -8,7 +8,7 @@ const PORT = 4000;
 // CORSの設定（Reactアプリからのアクセスを許可）
 app.use(
   cors({
-    origin: "*", // React側のURL
+    origin: "http://localhost:5173", // React側のURL
     credentials: true,
   })
 );

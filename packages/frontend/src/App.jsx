@@ -5,8 +5,8 @@ import axios from "axios";
 axios.defaults.withCredentials = true;
 
 // バックエンドのAPIエンドポイント
-// const API_URL = "http://localhost:4000";
-const API_URL = "https://secret-orb-xxrx5qg9x9qhg4j-4000.app.github.dev";
+const API_URL = "http://localhost:4000";
+// const API_URL = "https://secret-orb-xxrx5qg9x9qhg4j-4000.app.github.dev";
 
 /**
  * App コンポーネント

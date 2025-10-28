@@ -49,6 +49,9 @@ curl -H "Cookie: connect.sid=<ここにsidの値をコピペする>" http://loca
 ## セッションハイジャックの対策方針
 
 - ログイン成功時にセッションIDを再生成するように実装する
+    - 事前に盗まれたセッションIDを無効化するため
+
+
 
 ## 参考文献
 - [セッション認証とは？React × Expressでハンズオンしながら学ぶ](https://qiita.com/t_maki/items/c70148bf2f66415ddb91)

@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/hello-world.js"
+    "dev": "node src/server.js"
   },
   "keywords": [],
   "author": "",

@@ -26,9 +26,10 @@ app.use(
       secure: false,
       httpOnly: false,
     },
-    genid: function (req) {
-      return "user-1234";
-    },
+    // 以下はセッションIDを固定値にするための設定
+    // genid: function (req) {
+    //   return "user-1234";
+    // },
   })
 );
 
